@@ -35,7 +35,7 @@ const UserInput = () => {
   };
 
   return (
-    <div className="controls space-y-2 flex items-center justify-between gap-1 flex-wrap">
+    <div className="controls space-y-2 flex items-center justify-between gap-1 flex-wrap sticky top-0 bg-white py-3">
       <div className="flex items-center gap-2">
         <label
           htmlFor="region"
@@ -63,8 +63,9 @@ const UserInput = () => {
           id="errorAmount"
           value={errorAmount}
           onChange={(e) => setErrorAmount(e.target.value)}
-          min="0"
-          max="10"
+          min={0}
+          max={10}
+          step={0.1}
           className="w-full"
         />
       </div>

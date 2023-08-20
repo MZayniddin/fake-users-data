@@ -8,7 +8,7 @@ const Regions = {
     label: "USA",
   },
   PL: {
-    hasMiddleName: false,
+    hasMiddleName: true,
     faker: fakerPL,
     alphabet:
       "aąbcćdeęfghijklłmnńoópqrsśtuvwxyzźżAĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ".split(
