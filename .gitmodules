@@ -1,0 +1,3 @@
+[submodule "fake-users-data"]
+	path = fake-users-data
+	url = https://github.com/MZayniddin/fake-users-data
