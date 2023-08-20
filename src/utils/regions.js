@@ -5,7 +5,7 @@ const Regions = {
     hasMiddleName: true,
     faker: fakerEN_US,
     alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""),
-    label: "United States",
+    label: "USA",
   },
   PL: {
     hasMiddleName: false,

@@ -44,6 +44,7 @@ const UserInput = () => {
           Select Region:
         </label>
         <Select
+          className="min-w-[115px]"
           id="region"
           value={options.find((option) => option.value === region)}
           onChange={(e) => setRegion(e.value)}
